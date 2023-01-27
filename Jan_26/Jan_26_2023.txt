@@ -5,3 +5,7 @@
 #How to undo the last commit?
 
 - git checkout HEAD <filename>
+
+#How to show git status?
+
+- git status
