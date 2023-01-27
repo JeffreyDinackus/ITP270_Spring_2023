@@ -9,3 +9,18 @@
 #How to show git status?
 
 - git status
+
+#How to remove a file from the staging area?
+
+- git reset HEAD <filename>
+
+#how to reset to a previous version
+
+- git log
+#take the first 7 letters of the code
+- git reset <commit_SHA, 7 lettrs or numbers>
+
+
+git checkout HEAD filename: Discards changes in the working directory.
+  git reset HEAD filename: Unstages file changes in the staging area.
+  git reset commit_SHA: Resets to a previous commit in your commit history.
