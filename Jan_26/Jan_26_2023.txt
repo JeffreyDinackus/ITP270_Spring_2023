@@ -1,0 +1,7 @@
+#How to see the last commit
+
+- "git show HEAD"
+
+#How to undo the last commit?
+
+- git checkout HEAD <filename>
