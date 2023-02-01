@@ -5,4 +5,5 @@
 5. git checkout <main-branch>
 6. git merge <branch-name>
 7. Get back to repository -> create a pull request -> merge the pull request
+7. git branch -d <branch-name>
 
