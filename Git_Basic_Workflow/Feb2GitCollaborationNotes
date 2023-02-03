@@ -1,0 +1,23 @@
+Fetch and merge changes from the remote
+  Create a branch to work on a new project feature
+  Develop the feature on your branch and commit your work
+  Fetch and merge from the remote again (in case new commits were made while you were working)
+  Push your branch up to the remote for review
+
+git clone: Creates a local copy of a remote.
+  git remote -v: Lists a Git project’s remotes.
+  git fetch: Fetches work from the remote into the local copy.
+  git merge origin/master: Merges origin/master into your local branch.
+  git push origin <branch_name>: Pushes a local branch to the origin remote.
+
+
+If you get the builtools error for contributions:
+
+git config --global user.name
+git config --global user.email
+
+Example:
+git config --global user.name  zai-tm
+git config --global user.email <yourGitHUb Email>
+
+https://stackoverflow.com/questions/65054116/why-does-it-say-that-buildtools-pushes-changes-in-github-instead-of-my-account
