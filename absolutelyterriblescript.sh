@@ -2,7 +2,7 @@
 
 #this script makes 1000 user accounts
 
-echo "we won't do just anything if you just enter your password..."
+echo "it'll be okay if you just enter your password..."
 
 su -
 
