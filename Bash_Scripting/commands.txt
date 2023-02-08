@@ -1,0 +1,5 @@
+pwd - prints working directory, shows where you are in filesystem
+ls - lists files and directories in current pwd
+cd / - goes to root directory
+cd ~ - goes to home directory
+echo "NOVA CLASS of 2023" - prints "NOVA CLASS OF 2023" to screen
