@@ -18,3 +18,7 @@ git push -u origin main
 
 git status -v -v  
 this command runs git status and git diff at the same time
+
+how can I change commit message?
+git commit --amend
+git commit --amend -m "an updated commit message"
