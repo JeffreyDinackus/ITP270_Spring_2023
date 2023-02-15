@@ -1,0 +1,41 @@
+the #! in a bash script is called the hash bang or shebang 
+
+The Linux Penquin and Bill Gates walk into a bar, before the bartender asks them what they are having a discussion starts between them
+
+Smell my shell -The linux penquin
+Smell my powershell -Bill Gates
+Let's have a BASH -The linux penquin
+I'm the task manager around here -Bill Gates
+You won't even have a /etc/skel when i'm done -The linux penquin
+I'll disable your statup with autoruns -Bill Gates
+All the hackers play for my team -The linux penquin
+You don't even have any good games -Bill Gates
+With Wine I have all I need. -the linux penquin
+You're lightweight but I hit heavy -Bill Gates
+Windows hasn't been spyware free since windows 7 -the linux penquin
+At least we aren't on MAC -Bill Gates
+True that -the linux penquin
+
+cd ../2014
+
+
+pwd outputs the name of the current working directory.
+  ls lists all files and directories in the working directory.
+  cd switches you into the directory you specify.
+  mkdir creates a new directory in the working directory.
+  touch creates a new file inside the working directory.
+
+
+
+1.   Access rights. These indicate the read, write, and execute permissions on the file or directory allowed to the owner, the group, and all users. You can read more about file permissions.
+  Number of hard links. This represents the number of hard links to the file or directory. This number includes the parent directory link (..) and current directory link (.).
+  The username of the file’s owner. Here the username is cc.
+  The name of the group that owns the file. Here the group name is eng.
+  The size of the file in bytes.
+  The date & time that the file was last modified.
+  The name of the file or directory.
+
+
+q
+
+what cyber course to take
