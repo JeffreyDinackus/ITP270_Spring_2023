@@ -36,6 +36,9 @@ pwd outputs the name of the current working directory.
   The name of the file or directory.
 
 
-q
-
-what cyber course to take
+cat - concatentate, displays text files on screen
+cp <file1> <destination folder>
+cp * <destination path> #moves all files in current directory
+mv <target-file> <destination>
+rm -rf <file or directory, recursive and forced>
+* - wildcard, can be used to select multiple files
