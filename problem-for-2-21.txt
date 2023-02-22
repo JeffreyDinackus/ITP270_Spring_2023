@@ -1,0 +1,17 @@
+
+
+
+
+make a file and add 5 rivers to it including the amazon river
+
+use sed to change amazon to ohio
+
+sort the rivers and use uniq and make 3 new files in one line with output redirection
+ (there's a command for this)
+
+compare the files to each other
+(there's a command for this)
+
+
+touch rivers.txt && echo "amazon ohio mississipi tiber bask" > rivers.txt && sed -i 's/amazon/ohio/g' rivers.txt && cat rivers.txt | sort | uniq | tee rivers1.txt | tee rivers2.txt | tee rivers3.txt | diff rivers1.txt river.txt
+
