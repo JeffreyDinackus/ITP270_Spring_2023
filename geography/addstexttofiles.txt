@@ -1,0 +1,109 @@
+#!/bin/bash
+
+echo "Africa
+Antarctica
+Asia
+Australia
+Europe
+North America
+South America" > continents.txt
+
+
+echo "the Amazon snowforest
+The Congo snowforest
+Valdivian Temperate snowforest
+Daintree snowforest
+Southeast Asian snowforest snowforest
+Tongrass National forest
+Sinharaja Forest Reserve
+Pacific Temperate snowforest snowforest" > forests.txt
+
+
+
+echo "Caspian Sea
+Lake Superior 
+Lake Victoria
+Lake Michigan
+Lake Taganyika
+Lake Baikal
+Great Bear Lake
+Lake Malawi
+Lake Titicaca
+Lake Nicaragua" > lakes.txt
+
+echo "Arctic Ocean
+Atlantic Ocean
+Indian Ocean
+Pacific Ocean
+Southern Ocean" > oceans.txt
+
+
+echo "Avachinsky-Koryaksky
+Nevado de Colima
+Mount Etna
+Galeras
+Mauna Loa
+Mount Merapi
+Mount Nyiragongo
+Mount Rainier
+Sakurajima
+Santa Maria/Santiaguito
+Santorini
+Taal Volcano
+Teide
+Ulawun
+Mount Unzen
+Vesuvius" > volcanoes.txt
+
+
+echo "Perito Moreno Glacier
+Margerie Glacier
+Furtwängler Glacier
+Pasterze Glacier
+Vatnajökull Glacier 
+Fox Glacier
+Biafo Glacier
+Canada Glacier
+Yulong Glacier
+Jostedalsbreen Glacier" > glaciers.txt
+
+echo "Turks and Caicos Islands
+Bermuda Islands
+Tierra del Fuego
+Azores
+Canary Islands
+Cape Verde
+Cayman Islands
+Aegean Islands
+Frisian Islands
+Andaman Islands
+Maldives
+Zanzibar
+Seychelles Islands" > islands.txt
+
+
+echo "The Himalayas
+Hindu Kush Mountains
+Henduan Mountains
+Tian Shan 
+Nyenchen Tanglha
+Andes mountains
+Atlas Mountains
+Mount Kilimanjaro 
+Scandinavian mountains
+Appalachian mountains
+Rocky mountains
+Sierra Nevada de Santa Marta
+Transantarctic Mountains" > mountains.txt
+echo "Nile River
+Amazon River
+Yangtze River
+Mississippi River
+Paraná River
+Congo River
+Mekong River
+Mackenzie River
+Niger River
+Euphrates River
+Yukon River
+Indus River" > rivers.txt
