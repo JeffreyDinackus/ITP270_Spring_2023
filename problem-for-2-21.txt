@@ -15,3 +15,4 @@ compare the files to each other
 
 touch rivers.txt && echo "amazon ohio mississipi tiber bask" > rivers.txt && sed 's/amazon/ohio/' rivers.txt && cat rivers.txt | sort | uniq | tee rivers1.txt | tee rivers2.txt | tee rivers3.txt && diff rivers1.txt rivers.txt
 
+you can add "&& diff rivers<any of the file numbers>.txt rivers.txt" to compare more files. You can do this as many times as you want. 
