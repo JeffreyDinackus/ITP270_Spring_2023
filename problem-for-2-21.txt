@@ -1,6 +1,10 @@
 
+#Jeffrey Dinackus
+#cli problem assignment
 
 
+---------------------------------------------------------------------
+the problem: 
 
 make a file and add 5 rivers to it including the amazon river
 
@@ -11,8 +15,10 @@ sort the rivers and use uniq and make 3 new files in one line with output redire
 
 compare the files to each other
 (there's a command for this)
+---------------------------------------------------------------------
 
+the solution: 
 
-touch rivers.txt && echo "amazon ohio mississipi tiber bask" > rivers.txt && sed 's/amazon/ohio/' rivers.txt && cat rivers.txt | sort | uniq | tee rivers1.txt | tee rivers2.txt | tee rivers3.txt && diff rivers1.txt rivers.txt
+touch rivers.txt && echo "amazon potomac mississipi tiber bask" > rivers.txt && sed -i 's/amazon/ohio/' rivers.txt && cat rivers.txt | sort | uniq | tee rivers1.txt rivers2.txt rivers3.txt && diff rivers1.txt rivers.txt
 
 you can add "&& diff rivers<any of the file numbers>.txt rivers.txt" to compare more files. You can do this as many times as you want. 
