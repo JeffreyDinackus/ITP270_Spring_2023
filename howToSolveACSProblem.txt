@@ -1,0 +1,10 @@
+1. Create a file
+ 2 2. Open the file using any terminal editor
+ 3 3. Add five river names to it
+ 4 4. Make sure you are adding "amazon river" t>
+ 5 5. Replace the word "amazon" with "ohio"
+ 6 6. Sort the river names alphabetically
+ 7 7. Use command to filter out duplicates
+ 8 8. Use redirection to create three copies of>
+ 9. Compare the original file and the modifie>
+
