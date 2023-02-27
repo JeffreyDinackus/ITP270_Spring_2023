@@ -27,6 +27,8 @@ printf ${PhoneBook[number]}"\n"
 
 #control flow
 a=1
+
+
 b=1
 #-eq means squal to
 if (("$a" == "$b"))
@@ -44,3 +46,34 @@ printf "a < b\n"
 
 fi
 
+echo "I can count!"
+for b in {1..5}
+do
+    echo $b
+done
+echo "all done"
+
+#this script is broken in zsh
+counter=1
+while [$counter -lt 10]
+do
+echo $counter
+((counter++))
+done
+echo "all done"
+
+testString="test string"
+
+echo ${testString:2:4}
+
+echo "enter your name"
+read UserName
+echo $UserName
+
+#sending file content to a variable
+touch test.txt
+echo "I like to dance" >> test.txt
+
+TempFile=$(<test.txt)
+
+echo $TempFile
